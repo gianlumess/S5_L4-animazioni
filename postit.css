@@ -25,7 +25,10 @@ body {
 
 .lavagna > div {
   width: 200px;
-  height: 11em;
+  max-height: 200px;
+  min-height: 8em;
+  font-size: x-large;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,23 +38,23 @@ body {
 .yellow {
   background: linear-gradient(
     180deg,
-    rgba(253, 253, 203, 1) 64%,
-    rgba(193, 193, 167, 1) 100%
+    rgba(253, 253, 203, 1) 41%,
+    rgba(193, 193, 167, 1) 84%
   );
 }
 .green {
   background: linear-gradient(
     180deg,
-    rgba(204, 254, 206, 1) 64%,
-    rgba(158, 181, 161, 1) 100%
+    rgba(204, 254, 206, 1) 41%,
+    rgba(158, 181, 161, 1) 84%
   );
 }
 
 .purple {
   background: linear-gradient(
     180deg,
-    rgba(199, 199, 245, 1) 64%,
-    rgba(139, 140, 155, 1) 100%
+    rgba(199, 199, 245, 1) 41%,
+    rgba(139, 140, 155, 1) 84%
   );
 }
 
