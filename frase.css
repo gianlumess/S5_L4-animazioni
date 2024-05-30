@@ -27,6 +27,7 @@ body {
   margin-top: 6rem;
   padding: 1em;
   font-size: xx-large;
+  overflow: hidden;
 }
 
 .parole {
@@ -38,4 +39,32 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.parole i:first-of-type {
+  opacity: 0;
+  animation: fade 3s infinite;
+}
+.parole i:nth-of-type(2) {
+  opacity: 0;
+}
+
+.parole i:nth-of-type(3) {
+  opacity: 0;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
 }
