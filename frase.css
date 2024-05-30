@@ -18,3 +18,24 @@ body {
 6 animare le altre 2 parole
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
+
+#testoAlternato {
+  margin: auto;
+  background-color: lightgray;
+  width: 982px;
+  height: 200px;
+  margin-top: 6rem;
+  padding: 1em;
+  font-size: xx-large;
+}
+
+.parole {
+  color: #68869a;
+  position: relative;
+}
+
+.parole i {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
